@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- Manager -->
+	<bean id="userManager"
+		class="cn.minihand.englishRecite.ManagerImpl.UserManagerImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+	<bean id="contentManager"
+		class="cn.minihand.englishRecite.ManagerImpl.ContentManagerImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+	<bean id="planManager"
+		class="cn.minihand.englishRecite.ManagerImpl.PlanManagerImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+	<bean id="reciteManager"
+		class="cn.minihand.englishRecite.ManagerImpl.ReciteManagerImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+	<bean id="recordManager"
+		class="cn.minihand.englishRecite.ManagerImpl.RecordManagerImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+	<bean id="examManager"
+		class="cn.minihand.englishRecite.ManagerImpl.ExamManagerImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+</beans>

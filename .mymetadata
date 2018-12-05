@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="englishRecite"
+  id="myeclipse.1305879888047"
+  context-root="/englishRecite"
+  j2ee-spec="5.0"
+  archive="englishRecite.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

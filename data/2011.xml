@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<contents> 
+  <content> 
+    <chinese>你好</chinese>  
+    <english>hello</english>  
+    <voice>短语</voice>  
+    <type/> 
+  </content>  
+  <content> 
+    <chinese>你好</chinese>  
+    <english>hello</english>  
+    <voice>短语</voice>  
+    <type/> 
+  </content>  
+  <content> 
+    <chinese>你好</chinese>  
+    <english>hello</english>  
+    <voice>短语</voice>  
+    <type/> 
+  </content>  
+  <content> 
+    <chinese>你好</chinese>  
+    <english>hello</english>  
+    <voice/>  
+    <type>短语</type> 
+  </content>  
+  <content> 
+    <chinese>你好</chinese>  
+    <english>hello</english>  
+    <voice/>  
+    <type>短语</type> 
+  </content>  
+  <content>
+    <chinese>你好</chinese>
+    <english>hello</english>
+    <voice></voice>
+    <type>短语</type>
+  </content>
+</contents>
